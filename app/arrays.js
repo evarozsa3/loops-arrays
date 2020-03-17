@@ -40,11 +40,12 @@ function largestNum(arr) {
 // output: [16, 8, 4, 28]
 
 function elemsTimesLength(arr) {
-    let num = arr[0];
-    for (let index = 1; index < arr.length; index++) {
-        num * index
+    let newArr = []
+    for (let index = 0; index < arr.length; index++) {
+        let num = arr[index];
+        newArr.push(num * arr.length);
     }
-    return num
+    return newArr;
 
 }
 

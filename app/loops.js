@@ -5,6 +5,7 @@
 
 function rangeTotal(n1, n2) {
   let sum = 0;
+  debugger
   for (let index = n1; index <= n2; index++) {
     sum += index
   }
